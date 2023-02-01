@@ -19,4 +19,6 @@ from eCom import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('layout/',views.layout),
+    path('userform/', views.userform),
+    path('userfetch/', views.userfetch),
 ]
